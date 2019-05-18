@@ -1,6 +1,26 @@
 # spring-boot-user-salary-api
 Spring Boot User Salary API
 
+
+## To Get Users with salary between 0 to 4000
+* GET
+```
+localhost:8080/api/v1/users
+```
+
+## To upload CSV file
+* POST
+```
+localhost:8080/api/v1/users/upload
+```
+* CSV Example
+```
+name,salary
+John,2500.05
+Mary Posa, 4000.00
+Mike,4001.00
+```
+
 ## Built With
 
 * Gradle
