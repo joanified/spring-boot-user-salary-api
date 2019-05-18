@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 HELP.md
 .gradle
 /build/
@@ -29,6 +30,8 @@ HELP.md
 ### VS Code ###
 .vscode/
 
+=======
+>>>>>>> fd25a83a2b13479894a257cb23a3bad05be84925
 # Compiled class file
 *.class
 
@@ -51,4 +54,8 @@ HELP.md
 *.rar
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+<<<<<<< HEAD
 hs_err_pid*
+=======
+hs_err_pid*
+>>>>>>> fd25a83a2b13479894a257cb23a3bad05be84925
