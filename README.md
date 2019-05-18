@@ -6,8 +6,8 @@ Spring Boot User Salary API
 * Gradle
 * Spring Boot
   * Spring Data JPA
-* jackson (To read csv)
-* lombok
+* Jackson (To read csv)
+* Lombok
 * SQL Server 2017
 
 
