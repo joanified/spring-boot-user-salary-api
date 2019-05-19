@@ -4,7 +4,10 @@ plugins {
 }
 
 apply plugin: 'io.spring.dependency-management'
-
+apply plugin: "war"
+war {
+    enabled = true
+}
 group = 'com.govtech'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
@@ -28,4 +31,5 @@ dependencies {
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
 }
