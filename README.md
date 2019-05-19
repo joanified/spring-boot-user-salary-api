@@ -2,30 +2,16 @@
 Spring Boot User Salary API
 
 # API
-### To upload CSV file
-* POST
-```
-localhost:8080/govtech/api/v1/users/upload
-```
-* CSV Example Format
-```
-name,salary
-John,2500.05
-Mary Posa, 4000.00
-Mike,4001.00
-```
-
-
 ### To Get Users with salary between 0 to 4000
 * GET
 ```
-localhost:8080/govtech/api/v1/users
+localhost:8080/<war file name>/api/v1/users
 ```
 
-## To upload CSV file
+### To upload CSV file
 * POST
 ```
-localhost:8080/govtech/api/v1/users/upload
+localhost:8080/<war file name>/api/v1/users/upload
 ```
 * CSV Example
 ```
@@ -35,7 +21,7 @@ Mary Posa, 4000.00
 Mike,4001.00
 ```
 
-## Built With
+# Built With
 
 * Gradle
 * Spring Boot
@@ -74,6 +60,7 @@ GO
 # To Deploy
 * Ensure that SQL Server is configured properly
 * Download and Extract Tomcat http://mirror.23media.de/apache/tomcat/tomcat-8/v8.5.30/bin/
+* Rebuild the war file if there are any changes.
 * Navigate to Tomcat Webapps folder and paste govtech.war file
 * Open cmd and change to Tomcat bin folder
 * run ```service install```
