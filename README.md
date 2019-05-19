@@ -28,7 +28,7 @@ Mike,4001.00
   * Spring Data JPA
 * Jackson (To read csv)
 * Lombok
-* SQL Server 2017
+* SQL Server 2017 Express Edition
 * Apache Tomcat
 
 
